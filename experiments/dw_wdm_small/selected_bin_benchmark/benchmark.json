@@ -1,0 +1,364 @@
+{
+  "baseline_revision": "aed4b19c42e26f84b83ef2c1201feeae30ea31c6",
+  "baseline_source_sha256": {
+    "src/log_psplines/preprocessing/moving_periodogram.py": "be83f90e40b348ee80bb8ed3db69db132d783ff9adc2ab7642029742e9e06496",
+    "experiments/dw_wdm_small/hann_paper.py": "981a20bb3d95e82450ba3f0993997ff1cdc6e3b559bfb58b25544071df4d300a",
+    "experiments/dw_wdm_small/lisa_hann_one_case.py": "76e3671ddbfde1eb3deaf8fab79217c5ebf4892137d67e25b6da519eecd47baa"
+  },
+  "current_source_sha256": {
+    "src/log_psplines/preprocessing/moving_periodogram.py": "6160cba3d4b566a4d041f517fe5cec31f0be4354892ee74f8a7eef09e5e26e66",
+    "experiments/dw_wdm_small/hann_paper.py": "da22030bd5a561b5e372b3db4169fd4d41ec48cd15d818c9267e65166ad1bd7e",
+    "experiments/dw_wdm_small/lisa_hann_one_case.py": "4023c6dc50ae4e1751a531dcec12dba9fbb980cbe008db688c29356fed05f6f7",
+    "experiments/dw_wdm_small/benchmark_selected_bins.py": "341f3a4b6be069baef505c82ed786313a2290fd5c133e3f3dfa217f1ef888540"
+  },
+  "environment": {
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "python": "3.12.12",
+    "numpy": "2.4.3",
+    "scipy": "1.17.1",
+    "jax": "0.9.1"
+  },
+  "method": "Median of warmed, alternating-order rounds; NumPy calls are synchronous. Setup is separate. No data I/O, reference projection, or sampling is timed.",
+  "coordinates": [
+    {
+      "n": 8192,
+      "exact_core_coefficient_and_coordinate_parity": true,
+      "timing": {
+        "before_ms": 0.44769999999516585,
+        "after_ms": 0.01510205001977738,
+        "speedup": 29.644981933503452,
+        "before_samples_ms": [
+          0.4602957999850332,
+          0.45291669998732687,
+          0.4529479499979061,
+          0.44769999999516585,
+          0.4457520999949338,
+          0.44523335000121733,
+          0.4463687499992375
+        ],
+        "after_samples_ms": [
+          0.016572899994571344,
+          0.01593125002727902,
+          0.014424999972106889,
+          0.013749999970968929,
+          0.018943750001199078,
+          0.014249999958337867,
+          0.01510205001977738
+        ],
+        "rounds": 7,
+        "calls_per_round": 20
+      }
+    },
+    {
+      "n": 32768,
+      "exact_core_coefficient_and_coordinate_parity": true,
+      "timing": {
+        "before_ms": 1.6303770999911649,
+        "after_ms": 0.033400000029359944,
+        "speedup": 48.8136855855688,
+        "before_samples_ms": [
+          1.6634521000014502,
+          1.7360895499678008,
+          1.6431062500032567,
+          1.6167249999853084,
+          1.6303770999911649,
+          1.627083350012981,
+          1.6223749999880965
+        ],
+        "after_samples_ms": [
+          0.03319375000501168,
+          0.036975000011807424,
+          0.03411459997550992,
+          0.0326042000324378,
+          0.033400000029359944,
+          0.0341896000009001,
+          0.033197899983861134
+        ],
+        "rounds": 7,
+        "calls_per_round": 20
+      }
+    }
+  ],
+  "hann_preparation": [
+    {
+      "n": 8192,
+      "complete": true,
+      "all_rungs": false,
+      "exact_observation_parity": true,
+      "timing": {
+        "before_ms": 1.5910915999484132,
+        "after_ms": 1.0867625000173575,
+        "speedup": 1.4640656076401244,
+        "before_samples_ms": [
+          1.515300000028219,
+          1.6089250000732136,
+          1.5910915999484132,
+          1.5809874999831663,
+          1.6239624999798252,
+          1.6120041999784007,
+          1.564254200002324
+        ],
+        "after_samples_ms": [
+          1.0735333999946306,
+          1.0860000000320724,
+          1.0867625000173575,
+          1.1285457999292703,
+          1.1211125000045286,
+          1.0859582999728445,
+          1.1137167000015324
+        ],
+        "rounds": 7,
+        "calls_per_round": 10
+      }
+    },
+    {
+      "n": 8192,
+      "complete": true,
+      "all_rungs": true,
+      "exact_observation_parity": true,
+      "timing": {
+        "before_ms": 3.503470899977401,
+        "after_ms": 3.073641700029839,
+        "speedup": 1.139843625866798,
+        "before_samples_ms": [
+          3.785362499911571,
+          3.4921832999316393,
+          3.5164582999641425,
+          3.4934833999614057,
+          3.503470899977401,
+          3.4711375000370026,
+          3.5079416999906243
+        ],
+        "after_samples_ms": [
+          3.114645899950119,
+          3.081770799963124,
+          3.0072957999436767,
+          3.0602750000070955,
+          3.073641700029839,
+          3.055208300065715,
+          3.0775958000049286
+        ],
+        "rounds": 7,
+        "calls_per_round": 10
+      }
+    },
+    {
+      "n": 8192,
+      "complete": false,
+      "all_rungs": false,
+      "exact_observation_parity": true,
+      "timing": {
+        "before_ms": 1.3975082999422739,
+        "after_ms": 0.9479874999669846,
+        "speedup": 1.4741843114924456,
+        "before_samples_ms": [
+          1.4029999999365828,
+          1.3813250000566768,
+          1.4177332999679493,
+          1.39965829994253,
+          1.3975082999422739,
+          1.3900500000090688,
+          1.3766541999757465
+        ],
+        "after_samples_ms": [
+          0.961941600053251,
+          0.9591167000507994,
+          0.9753792000083195,
+          0.9358000000247557,
+          0.9428207999917504,
+          0.9479874999669846,
+          0.9368666000227677
+        ],
+        "rounds": 7,
+        "calls_per_round": 10
+      }
+    },
+    {
+      "n": 32768,
+      "complete": true,
+      "all_rungs": false,
+      "exact_observation_parity": true,
+      "timing": {
+        "before_ms": 5.668395900011092,
+        "after_ms": 4.012904100000014,
+        "speedup": 1.4125420789425474,
+        "before_samples_ms": [
+          5.7501082999806385,
+          5.739774999983638,
+          5.683899999985442,
+          5.668395900011092,
+          5.609437500061176,
+          5.667804200038518,
+          5.611487500027579
+        ],
+        "after_samples_ms": [
+          4.064262500014593,
+          4.012904100000014,
+          3.9963208000699524,
+          3.9985874999729276,
+          4.0749791999587615,
+          4.0092290999382385,
+          4.101524999987305
+        ],
+        "rounds": 7,
+        "calls_per_round": 10
+      }
+    },
+    {
+      "n": 32768,
+      "complete": true,
+      "all_rungs": true,
+      "exact_observation_parity": true,
+      "timing": {
+        "before_ms": 14.104912499988131,
+        "after_ms": 12.25414999998975,
+        "speedup": 1.1510314872920546,
+        "before_samples_ms": [
+          13.831433299947093,
+          14.134241600004316,
+          16.373979199943278,
+          14.104912499988131,
+          14.39705419998063,
+          13.990575000025274,
+          13.941983299991989
+        ],
+        "after_samples_ms": [
+          12.217833400063682,
+          12.236195900004532,
+          13.011412500054576,
+          12.386304200026643,
+          12.25414999998975,
+          12.427329199999804,
+          12.177237500054616
+        ],
+        "rounds": 7,
+        "calls_per_round": 10
+      }
+    },
+    {
+      "n": 32768,
+      "complete": false,
+      "all_rungs": false,
+      "exact_observation_parity": true,
+      "timing": {
+        "before_ms": 5.338412499986589,
+        "after_ms": 3.6973749999560823,
+        "speedup": 1.443838534108658,
+        "before_samples_ms": [
+          5.338412499986589,
+          5.410100000062812,
+          5.374637500062818,
+          5.278829100006988,
+          5.3200291999928595,
+          5.36239579996618,
+          5.338212500009831
+        ],
+        "after_samples_ms": [
+          3.620566700010386,
+          3.732762500021636,
+          3.6973749999560823,
+          3.70876250008223,
+          3.7032457999885082,
+          3.661237500000425,
+          3.648991699992621
+        ],
+        "rounds": 7,
+        "calls_per_round": 10
+      }
+    }
+  ],
+  "lisa": {
+    "cycles": 69,
+    "retained_coefficients": 70587,
+    "computed_before_per_cycle": 7680,
+    "computed_after_per_cycle": 1023,
+    "prepared_sha256": "0437bd5d742408ae9f95e5cfb60deb385451b5d857f021ba82564994d48aa4c9",
+    "raw_context_sha256": "10ff3daa0f6fb0cf5fce1605c6b8e827f7d8983c8932d272a5d0c34f8f0ad188",
+    "coefficient_errors": {
+      "relative_l2": 7.931937154147798e-14,
+      "maximum_relative": 9.824596541919905e-10,
+      "max_absolute": 2.709109052808451e-16,
+      "rms_before": 0.00030950399810445643
+    },
+    "saved_power_max_relative_change": 1.22264376400949e-09,
+    "likelihood": {
+      "parameters": 112,
+      "states": [
+        {
+          "parameter_scale": 0.0,
+          "before_log_likelihood": -82619.58103186179,
+          "log_likelihood_abs_change": 1.0622898116707802e-09,
+          "gradient_max_abs_change": 4.5929482439532876e-10
+        },
+        {
+          "parameter_scale": 0.03,
+          "before_log_likelihood": -82402.7896757971,
+          "log_likelihood_abs_change": 1.0331859812140465e-09,
+          "gradient_max_abs_change": 4.519051799434237e-10
+        },
+        {
+          "parameter_scale": 0.1,
+          "before_log_likelihood": -82695.85811021682,
+          "log_likelihood_abs_change": 1.1059455573558807e-09,
+          "gradient_max_abs_change": 4.738467396236956e-10
+        },
+        {
+          "parameter_scale": 0.3,
+          "before_log_likelihood": -87029.38935124851,
+          "log_likelihood_abs_change": 1.1932570487260818e-09,
+          "gradient_max_abs_change": 5.138645065017045e-10
+        }
+      ]
+    },
+    "transform": {
+      "before_ms": 812.1548330000223,
+      "after_ms": 284.36962500018126,
+      "speedup": 2.855983064293539,
+      "before_samples_ms": [
+        820.2259580002647,
+        813.9687499997308,
+        798.3407499996247,
+        822.9156670004159,
+        778.9151249999122,
+        784.178208999947,
+        812.1548330000223
+      ],
+      "after_samples_ms": [
+        281.6696669997327,
+        283.86137500001496,
+        284.1842500001803,
+        291.7527500003416,
+        284.36962500018126,
+        285.2491249996092,
+        302.42183300015313
+      ],
+      "rounds": 7,
+      "calls_per_round": 1
+    },
+    "plan_setup": {
+      "before_ms": 27.3815000000468,
+      "after_ms": 9.447999999792955,
+      "speedup": 2.8981265877060585,
+      "before_samples_ms": [
+        30.09533400017972,
+        27.3815000000468,
+        24.25924999988638,
+        26.634291999471316,
+        24.573540999881516,
+        28.202708999742754,
+        28.008666999994603
+      ],
+      "after_samples_ms": [
+        9.708417000183545,
+        9.693082999547187,
+        9.447999999792955,
+        9.427874999346386,
+        9.143457999925886,
+        9.377290999509569,
+        11.211457999706909
+      ],
+      "rounds": 7,
+      "calls_per_round": 1
+    }
+  }
+}

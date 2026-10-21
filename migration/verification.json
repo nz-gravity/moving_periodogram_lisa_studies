@@ -1,0 +1,307 @@
+{
+  "files_checked": 2798,
+  "bytes_preserved": 5025467807,
+  "adapted_sources": {
+    "experiments/dw_wdm_small/benchmark.py": {
+      "original_sha256": "e92fef06f7cb2b210f1017be818a1216b4a8a5ce0e1600d4c9c0a5995522c6f3",
+      "current_sha256": "6ca306f0d900ebbbf1c1ec1a51b07804c28d20295d35d2226e18accd90c4d48f"
+    },
+    "experiments/dw_wdm_small/benchmark_selected_bins.py": {
+      "original_sha256": "341f3a4b6be069baef505c82ed786313a2290fd5c133e3f3dfa217f1ef888540",
+      "current_sha256": "50d3f7a153d6870f855ea2ab88fe18f857dbf7eacf89c48457f28f169cc9696b",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/gap_bias_audit.py": {
+      "original_sha256": "8bc2aae676b2e2e4952e49b8341e69fdff1852bdba95a66026ee6e66c972c2d2",
+      "current_sha256": "1c82a830d62843224a05b5fb5a9e35f124f00e8e7347d424cd6fc5f143fbaa92",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/hann_paper.py": {
+      "original_sha256": "da22030bd5a561b5e372b3db4169fd4d41ec48cd15d818c9267e65166ad1bd7e",
+      "current_sha256": "e7b5646b7ef2c7ecb0221e6b6ff81b0ae8b6ee8f838cc4e268e753ce04f2f4c8"
+    },
+    "experiments/dw_wdm_small/hann_paper_all_bins.py": {
+      "original_sha256": "8dac5ad9fa1ec63bdc1bea8a6d9c704fd17abcfa4b71457e1814f3a55cdc6053",
+      "current_sha256": "9f19c4f5c0ed2e0c574780df436a1fb03c215bd02eabb5fd3f9575a41a3289f9"
+    },
+    "experiments/dw_wdm_small/hann_paper_products.py": {
+      "original_sha256": "5bc32765486e09b11a173f3a3737a4d6bf424adbd8af8ddb5b8b37f7e6dd26cf",
+      "current_sha256": "2d776e570f026706d3cbbcc9161957d2a7bceb856b4ccac9a7b2548ad56a94f9"
+    },
+    "experiments/dw_wdm_small/likelihood_comparison.py": {
+      "original_sha256": "57c43b24312097a7c407566ad3f027316248f1c8dbf3b63a5ca6cf67015e0873",
+      "current_sha256": "e00309cd57dcc6464443ad714f37530b71964731d951a0808a9b50f4b39855e4",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/taper_bias_extension.py": {
+      "original_sha256": "868059812406208d1f1772348ab7329547c84293f5efcd056fb560926726e1cd",
+      "current_sha256": "184b29097cc2fc9e51b3313da688697ec8f37d5379f0d19397d5e293e03026c5",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/taper_study.py": {
+      "original_sha256": "0f78fd547a4e63fa42bc361052b9eb4c69db811eed1b1559800942367ab54983",
+      "current_sha256": "2a2740e059a71a725ece54be15561f573150ffa7b1ae9fda45f94e06d84906ed",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/verify_hann_paper.py": {
+      "original_sha256": "63c8ea3666abd2620bbc35395c1900d1acf5f0745f1850357915f6d7feb87f35",
+      "current_sha256": "df161c318c1e6c51ad4ad4da3d30c43038476ff02b4571bd560bf70be23e856b",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/verify_taper_study.py": {
+      "original_sha256": "8cae9521330865133b7ae0c1625ffc599f63edbbdfc914479f27b6ba4532a152",
+      "current_sha256": "72d7a1427d56974ac9d62cbde1ef46f26e59007338665738403c35b53a9d7e44",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/.gitignore": {
+      "original_sha256": "b4db47eee12775a3f80d43c1f05ccebca4de1010ca52a5adec2650da1473d529",
+      "current_sha256": "211a4783153a35dad6ac7c0a0decb76e57cdd4be0992b6b3834a6bf499370c1c",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/focused_study.py": {
+      "original_sha256": "38762f3fce31bcf170ec4b087673d44a8816dd9298e3055b3aa1082dbff6e9e3",
+      "current_sha256": "0de79447a36b0eed3ee5c1391e5dddd223cebf1ad0c4b75436adb2077a13cd31",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/gap_smoke.py": {
+      "original_sha256": "14e6cc8bb22c84bcb8299d732a38b1338b7cd1da58d3c7c393cdfbb7175921e6",
+      "current_sha256": "1f7d2f5e6024dd5d71949827bc43daa63a7ce7789d50b4211bf09f933cdb746d",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/hann_paper_figures.py": {
+      "original_sha256": "26a82afd1c3a166c79ef37db98cc05729aaa22ab0cb032b859ba84515d8d7745",
+      "current_sha256": "ddc42eb427f388d7cd6868a02b34dec1406de985b719daed277d95bca4851ea5",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/hann_paper_lisa.py": {
+      "original_sha256": "5a87dc54897e16b4d3f8b7e9d38d4d3cdd6b8ad13d85c898114dc7995eff6d16",
+      "current_sha256": "c3e8927770ccd3f15174fc57a6fa650c1a74cada10a465a297956d92d96a3817",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/hann_paper_ls2.py": {
+      "original_sha256": "68b87991cbdffc3f148ec3c2f9d327c4835e6507891c8fd0675373996574920f",
+      "current_sha256": "1aedeabf4945c72f0f618fd8e4aa3deef02468591882bc4f426751a4dae521e8",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/lisa_hann_dependence.py": {
+      "original_sha256": "79c40f0eb3d16ef53e7e08d3125515f6285a05b7f217d7fea11310cce32cac8f",
+      "current_sha256": "d0e558cc76b1ed87392be06d15f3c2a4e93eec841d87948c6a54b20df113ed88",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/lisa_hann_model.py": {
+      "original_sha256": "df38bfc92273ba949ee421805543fb1865adf5a52ed118c285f1d4d555adfe48",
+      "current_sha256": "8b12d61203e2aba7fb8e7631f41507e3630fe4a1d18368ae196e69106e9acf95",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/lisa_hann_one_case.py": {
+      "original_sha256": "4023c6dc50ae4e1751a531dcec12dba9fbb980cbe008db688c29356fed05f6f7",
+      "current_sha256": "d390c10d75f66d84ed18d7208a7f0a6720f72407b7ff29aa47a4971c3ac93015",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/plot_lisa_hann_one_case.py": {
+      "original_sha256": "827b3469cd620ce13156969b639381fd8f516072f1e1178cc7cb76a203d24a36",
+      "current_sha256": "3e794b17cc6530c70dd7616d0241aeceefc5c9464ecff039ebf863185113dee4",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/rerun_summary.py": {
+      "original_sha256": "6ea4e65e8be692001e0a02074203bffdda75e49e8f748ec50bc9061a318f494b",
+      "current_sha256": "1966ca6782e80f89ba89e2d2d6329e94cea7050e923220e9a524b1116f504e9c",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/runtime_check.py": {
+      "original_sha256": "70849be45a2761ec6f3ec25d915bbb6c7dddb3e32afb7526d8d3e6e817247cfb",
+      "current_sha256": "20582d31ad162d68a42307ecdccadeade8112d33b355400f4995619ecb9cd1b8",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/taper_coloured_audit.py": {
+      "original_sha256": "07e12cfe757995daa38f705013f9c131cf01ddd1a4915053d9bb0c9fc9d98fb8",
+      "current_sha256": "8b21f05d0316c361a3f778bf99d0907ab14392d7024e520f297c740de858e776",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/taper_smoke.py": {
+      "original_sha256": "7d16f4e053bdc604cee85f5d5724c235dcebc316745a7426c48e2c5105d2c52b",
+      "current_sha256": "d242716802a459daca22b902c0599d9d3eb728311e7fa629d534ee50eebc9acc",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/test_benchmark.py": {
+      "original_sha256": "18a85ea4bab5f92809d999e739d1f16beb69d0bcc2311aa1ba09fc45582b9cac",
+      "current_sha256": "c9f71e674eedb075f161ca0c4fe7797de68efdea4fb40b0dfa5030e552b21b1f",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/test_focused_study.py": {
+      "original_sha256": "13515e45340ce1fc307f95c54a5de76858e1f395e525af2128e3af81017d62a4",
+      "current_sha256": "4ab2b3b1c5cd97b1c74e9ba9f211e552c5afc6c517ebe12de3a03feb444a4bef",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/test_frequency_reuse.py": {
+      "original_sha256": "ac1bc74b1bc10f06eec33bfcbb34f5cf778c7b7ad1d4bdfa546b7af2c8d794c5",
+      "current_sha256": "2ea377e5eb2a418dade1193bfbb87e3c3a2c02d7f56998c5d4060681d50525b5",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/test_gap_bias_audit.py": {
+      "original_sha256": "5f16ab8d62e12882a143d4c3e7afd6109ea080b08b7e4c6a598748731fbb3185",
+      "current_sha256": "d709477f5906988006f488bbc3695fa782b8e7b4e62e8b777b7122e1f3c69925",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/test_gaps.py": {
+      "original_sha256": "1d9c6ced95651768e60a59bef856df8f60502026fa68364b06406e209649cd8f",
+      "current_sha256": "a1dc0dc2a269125631f05c9f72239a35af24ef20311525c9292921db23dfc660",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/test_hann_paper.py": {
+      "original_sha256": "7e667928360184c7c476f148fef96b85da2476cb1a8dab4499cbb613f0aea64b",
+      "current_sha256": "d7e5a273db4efa552f90b44a4fb019a750df775910e274ccc814b6c59e571324",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/test_likelihood_comparison.py": {
+      "original_sha256": "826a497a3bff984f3c2b561c372f2bcad3313ef3fbb1d2d4265873bbf7ce92cc",
+      "current_sha256": "9dcf21aec4daf0587fb9a476e89357543fc8db29ba38b219555003769cf779fe",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/test_lisa_hann_one_case.py": {
+      "original_sha256": "909ec936f6bce66b1d24c3371d07777251ea859cd62194fa453daef36dbb5257",
+      "current_sha256": "bbe9ea2d5ff089a215d12b1fcaaad9fec032cfbe97db3ad72000927d8abdd64b",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/test_taper.py": {
+      "original_sha256": "c092d29281b34468317b744d3b35936f8f53105972245e3fc086d76191a5f616",
+      "current_sha256": "0529595050d0b00ef60968580aede2aa07355accd0790144ace047014f8200ff",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/test_taper_bias_extension.py": {
+      "original_sha256": "9c23b1d339a710508d7ddc0cf0d4425db15f710adaed765db349dc7df19f248a",
+      "current_sha256": "a6d57ab05755f6897a909f096daa1ea3ed6e64fff32a9a5c4f1f9fe6cb635294",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    },
+    "experiments/dw_wdm_small/verify_hann_all_bins.py": {
+      "original_sha256": "d6bd8d9fc74ce8b27c72897476f43f3c05a5dfb6ae0e92dbcdd5c1f25e660c43",
+      "current_sha256": "48b427101df90b824aa17e40cb53adbb4081f1d4758d5d2a2b26ad8f2d527651",
+      "reason": "Publication: import/format cleanup, main-compatible ANOVA evaluation, or explicit compact-result ignore rules."
+    }
+  },
+  "validation": {
+    "study_tests_passed": 87,
+    "library_tests_passed": 189,
+    "library_slow_tests_deselected": 6,
+    "manuscript_tests_passed": 5,
+    "entry_point_help_checks_passed": 5,
+    "lisa_retained_coefficients": 70587,
+    "lisa_coefficient_errors": {
+      "relative_l2": 7.931937154147798e-14,
+      "maximum_relative": 9.824596541919905e-10,
+      "max_absolute": 2.709109052808451e-16,
+      "rms_before": 0.00030950399810445643
+    },
+    "lisa_likelihood_parity": {
+      "parameters": 112,
+      "states": [
+        {
+          "parameter_scale": 0.0,
+          "before_log_likelihood": -82619.58103186179,
+          "log_likelihood_abs_change": 1.0622898116707802e-09,
+          "gradient_max_abs_change": 4.5929482439532876e-10
+        },
+        {
+          "parameter_scale": 0.03,
+          "before_log_likelihood": -82402.7896757971,
+          "log_likelihood_abs_change": 1.0331859812140465e-09,
+          "gradient_max_abs_change": 4.519051799434237e-10
+        },
+        {
+          "parameter_scale": 0.1,
+          "before_log_likelihood": -82695.85811021682,
+          "log_likelihood_abs_change": 1.1059455573558807e-09,
+          "gradient_max_abs_change": 4.738467396236956e-10
+        },
+        {
+          "parameter_scale": 0.3,
+          "before_log_likelihood": -87029.38935124851,
+          "log_likelihood_abs_change": 1.1932570487260818e-09,
+          "gradient_max_abs_change": 5.138645065017045e-10
+        }
+      ]
+    }
+  },
+  "publication_validation": {
+    "date": "2026-10-22",
+    "library_revision": "1059dec082fc48de4142d7a2f3a0796eff71a9a3",
+    "study_tests_passed": 88,
+    "entry_point_help_checks_passed": 5,
+    "ruff_check_passed": true,
+    "ruff_format_passed": true,
+    "lisa_replay": {
+      "cycles": 69,
+      "retained_coefficients": 70587,
+      "coefficient_errors": {
+        "relative_l2": 7.931937154147798e-14,
+        "maximum_relative": 9.824596541919905e-10,
+        "max_absolute": 2.709109052808451e-16,
+        "rms_before": 0.00030950399810445643
+      },
+      "likelihood": {
+        "parameters": 112,
+        "states": [
+          {
+            "parameter_scale": 0.0,
+            "before_log_likelihood": -82619.58103186179,
+            "log_likelihood_abs_change": 1.0622898116707802e-09,
+            "gradient_max_abs_change": 4.5929482439532876e-10
+          },
+          {
+            "parameter_scale": 0.03,
+            "before_log_likelihood": -82402.7896757971,
+            "log_likelihood_abs_change": 1.0331859812140465e-09,
+            "gradient_max_abs_change": 4.519051799434237e-10
+          },
+          {
+            "parameter_scale": 0.1,
+            "before_log_likelihood": -82695.85811021682,
+            "log_likelihood_abs_change": 1.1059455573558807e-09,
+            "gradient_max_abs_change": 4.738467396236956e-10
+          },
+          {
+            "parameter_scale": 0.3,
+            "before_log_likelihood": -87029.38935124851,
+            "log_likelihood_abs_change": 1.1932570487260818e-09,
+            "gradient_max_abs_change": 5.138645065017045e-10
+          }
+        ]
+      }
+    },
+    "source_changes": "Retain the library-main ANOVA prior and fixed full-record centering in a local paired-site adapter. Validate against the independent library rectangular model and the centered/noncentered Jacobian. Normalize imports and formatting.",
+    "result_policy": "Publish only the selected-bin report and JSON plus six explicitly allowed regression fixtures (~120 KB). The multi-gigabyte result migration remains local.",
+    "regression_fixtures": [
+      {
+        "path": "experiments/dw_wdm_small/gap_bias_audit/mask_single.npz",
+        "bytes": 27535,
+        "sha256": "fbc4a4e102c6407f985e883381f3e2b9a632424d6474d181f2a0bd3fc9477f92"
+      },
+      {
+        "path": "experiments/dw_wdm_small/gap_bias_audit/mask_complete.npz",
+        "bytes": 1503,
+        "sha256": "e7aecd0f9bb1a3283deb81294cfa0262cd82edda3f6d15bb19d80cac0dffc0dd"
+      },
+      {
+        "path": "experiments/dw_wdm_small/gaps/contiguous_mask.npz",
+        "bytes": 62762,
+        "sha256": "8ce7fe37738eee0f402d58f459c1bc56c4a454b4ea9a37605ad2873ad3ea05f0"
+      },
+      {
+        "path": "experiments/dw_wdm_small/results/reuse_rerun/original_power_source.py",
+        "bytes": 22538,
+        "sha256": "543d516aa11edc3f8f96d7c2e22689bdfac5a51ce8f39b283e5caef1649c89c6"
+      },
+      {
+        "path": "experiments/dw_wdm_small/taper_study/repairs/boxcar_sparse/seed6101_dw/metrics.json",
+        "bytes": 2532,
+        "sha256": "b7888cd9c0a5ab8a11490c1b8d6c64b85a9f45c6a1fb8ecf2c282669970cd198"
+      },
+      {
+        "path": "experiments/dw_wdm_small/taper_study/repairs/hann_sparse/seed6101_dw/metrics.json",
+        "bytes": 2532,
+        "sha256": "1dd932cb7cb093f7d0c6e1a31085e9b93f854b5d25986a3aec3f19186cc4f7d6"
+      }
+    ],
+    "source_only_checkout_tests_passed": 88
+  }
+}

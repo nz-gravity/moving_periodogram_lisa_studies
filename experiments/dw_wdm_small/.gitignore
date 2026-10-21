@@ -1,0 +1,37 @@
+# Generated study data, posterior archives, and source snapshots stay local.
+/*/
+*.log
+
+# Publish only the compact selected-bin report and timing/parity summary.
+!/selected_bin_benchmark/
+/selected_bin_benchmark/*
+!/selected_bin_benchmark/REPORT.md
+!/selected_bin_benchmark/benchmark.json
+
+# Small frozen regression fixtures make fresh-clone tests self-contained.
+!/gap_bias_audit/
+/gap_bias_audit/*
+!/gap_bias_audit/mask_complete.npz
+!/gap_bias_audit/mask_single.npz
+!/gaps/
+/gaps/*
+!/gaps/contiguous_mask.npz
+!/results/
+/results/*
+!/results/reuse_rerun/
+/results/reuse_rerun/*
+!/results/reuse_rerun/original_power_source.py
+!/taper_study/
+/taper_study/*
+!/taper_study/repairs/
+/taper_study/repairs/*
+!/taper_study/repairs/boxcar_sparse/
+/taper_study/repairs/boxcar_sparse/*
+!/taper_study/repairs/boxcar_sparse/seed6101_dw/
+/taper_study/repairs/boxcar_sparse/seed6101_dw/*
+!/taper_study/repairs/boxcar_sparse/seed6101_dw/metrics.json
+!/taper_study/repairs/hann_sparse/
+/taper_study/repairs/hann_sparse/*
+!/taper_study/repairs/hann_sparse/seed6101_dw/
+/taper_study/repairs/hann_sparse/seed6101_dw/*
+!/taper_study/repairs/hann_sparse/seed6101_dw/metrics.json

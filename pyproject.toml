@@ -1,0 +1,30 @@
+[project]
+name = "moving-periodogram-lisa-studies"
+version = "0.1.0"
+description = "Moving-periodogram and Dynamic Whittle studies for LISA"
+requires-python = ">=3.12"
+dependencies = ["LogPSplinePSD[wdm]", "scipy", "h5py", "xarray[io]"]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "beartype>=0.22.9"]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+LogPSplinePSD = { path = "../LogPSplinePSD", editable = true }
+
+[tool.pytest.ini_options]
+testpaths = ["experiments/dw_wdm_small"]
+addopts = "--import-mode=importlib --jaxtyping-packages=log_psplines,beartype.beartype"
+
+[tool.ruff]
+line-length = 79
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "NPY"]
+ignore = ["E501"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["experiments"]

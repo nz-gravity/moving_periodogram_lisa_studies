@@ -1,0 +1,43 @@
+# Environments, credentials and Python caches.
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.DS_Store
+
+# Historical results stay on disk, outside Git.
+/archive/
+/data/
+/raw_data/
+/results/
+/outputs/
+/cache/
+*.h5
+*.hdf5
+*.hdf
+*.nc
+*.nc4
+*.npy
+*.npz
+*.zarr/
+*.pkl
+*.pickle
+*.joblib
+*.log
+
+# Bulk archives and recordings.
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.mp4
+*.mov
+*.webm
+*.wav
